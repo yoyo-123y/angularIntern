@@ -1,0 +1,8 @@
+.navbar-logo{
+    color: var(--main-color-dark);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}

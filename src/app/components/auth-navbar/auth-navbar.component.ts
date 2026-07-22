@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 @Component({
-  selector: 'app-navbar',
+  selector: 'app-auth-navbar',
   standalone: true,
   imports: [RouterLink, RouterLinkActive],
-  templateUrl: './navbar.component.html',
-  styleUrl: './navbar.component.css'
+  templateUrl: './auth-navbar.component.html',
+  styleUrl: './auth-navbar.component.css'
 })
-export class NavbarComponent {
-  logout() {
-    localStorage.removeItem('token');
+export class AuthNavbarComponent {
+  login(){
+
   }
 }
